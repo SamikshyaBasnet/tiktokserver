@@ -2,11 +2,12 @@ import express from "express";
 import mongoose from "mongoose";
 import data from "./data.js";
 import Videos from './dbModel.js';
-
+import 'dotenv/config'
 
 ///\ app config
 const app = express();
-const port = 9000;
+const port = process.env.PORT || 9000;
+
 
 //midllewares
 app.use(express.json())
