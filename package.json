@@ -9,7 +9,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "react-scripts start",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "Samikshya",
